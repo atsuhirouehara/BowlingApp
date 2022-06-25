@@ -34,6 +34,24 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="14" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,1,0,1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="14"/>
+        <Border BorderBrush="Black" BorderThickness="0,1,0,1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="14"/>
+
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="2" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="3" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="4" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="5" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="6" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="7" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="8" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="9" Grid.Row="0" Grid.RowSpan="3"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="10" Grid.Row="1" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="11" Grid.Row="1" Grid.RowSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="0,0,1,0" Grid.Column="12" Grid.Row="0" Grid.RowSpan="3"/>
+
         <TextBlock Text="A" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Grid.Column="0" Grid.Row="1" />
         <TextBlock Text="B" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Grid.Column="0" Grid.Row="2" />
         <TextBlock Text="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="1" Grid.Row="0" />
