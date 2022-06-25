@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "26444366-dc41-48f7-92d2-da8a7c12ce5c": {
+      "ProjectGuid": "26444366-dc41-48f7-92d2-da8a7c12ce5c",
+      "DisplayName": "BowlingApp",
+      "ColorIndex": 0
+    },
+    "0f47ce74-73df-45e5-a621-67648bee612e": {
+      "ProjectGuid": "0f47ce74-73df-45e5-a621-67648bee612e",
+      "DisplayName": "BowlingAppTest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

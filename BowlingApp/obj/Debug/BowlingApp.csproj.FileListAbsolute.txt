@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\bin\Debug\BowlingApp.exe.config
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\bin\Debug\BowlingApp.exe
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\bin\Debug\BowlingApp.pdb
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\App.g.cs
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp_MarkupCompile.cache
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp_MarkupCompile.lref
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.g.resources
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.Properties.Resources.resources
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.csproj.GenerateResource.cache
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.exe
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.pdb
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\Views\MainWindow.g.cs
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\Views\MainWindow.baml
+C:\Users\user\Desktop\MyProject\BowlingApp\BowlingApp\obj\Debug\BowlingApp.csproj.AssemblyReference.cache
