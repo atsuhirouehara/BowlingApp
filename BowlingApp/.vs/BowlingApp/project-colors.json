@@ -1,16 +1,16 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "26444366-dc41-48f7-92d2-da8a7c12ce5c": {
-      "ProjectGuid": "26444366-dc41-48f7-92d2-da8a7c12ce5c",
+    "02a3b7e6-2953-4360-99b3-b772c24a16e0": {
+      "ProjectGuid": "02a3b7e6-2953-4360-99b3-b772c24a16e0",
       "DisplayName": "BowlingApp",
       "ColorIndex": 0
     },
-    "0f47ce74-73df-45e5-a621-67648bee612e": {
-      "ProjectGuid": "0f47ce74-73df-45e5-a621-67648bee612e",
-      "DisplayName": "BowlingAppTest",
-      "ColorIndex": 1
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "その他のファイル",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 1
 }
