@@ -1,16 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BowlingApp.Models
 {
     public class Bowling
     {
+        /// <summary>ランダムな値を返すメソッド</summary>
+        /// <param name="maxNum"></param>
+        /// <returns>ランダムな値</returns>
         public int GetRandomNum(int maxNum)
         {
-            return 1;
+            Random random = new Random();
+            var throwResult = random.Next(0, maxNum);
+            return throwResult;
         }
     }
 }

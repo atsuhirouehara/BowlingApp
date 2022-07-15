@@ -12,7 +12,7 @@ namespace BowlingApp.Usecase
         /// <returns></returns>
         public int CalcScore()
         {
-            var maxNum = 10;
+            var maxNum = 11;
             int firstThrowResult = bowling.GetRandomNum(maxNum);
             int secondThrowResult;
 
@@ -28,9 +28,7 @@ namespace BowlingApp.Usecase
             return firstThrowResult + secondThrowResult;
         }
 
-        /// <summary>
-        /// CalcScoreの結果に合った文字列に変換して返却するメソッド
-        /// </summary>
+        /// <summary>CalcScoreの結果に合った文字列に変換して返却するメソッド</summary>
         /// <returns></returns>
         public string GetScore()
         {

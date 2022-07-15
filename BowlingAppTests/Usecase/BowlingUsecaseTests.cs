@@ -41,14 +41,14 @@ namespace BowlingApp.Usecase.Tests
         //    Assert.AreEqual(5, bowlingUsecase.GetScore(), 4);
         //}
 
-        [DataTestMethod]
-        [DataRow("〇")]
-        [DataRow("▶")]
-        [DataRow("✖")]
-        public void GetScoreを実行した際に上記の値が返却されることを確認するテスト(string expected)
-        {
-            BowlingUsecase bowlingUsecase = new BowlingUsecase();
-            Assert.AreEqual(expected, bowlingUsecase.GetScore());
-        }
+        //[DataTestMethod]
+        //[DataRow("〇")]
+        //[DataRow("▶")]
+        //[DataRow("✖")]
+        //public void GetScoreを実行した際に上記の値が返却されることを確認するテスト(string expected)
+        //{
+        //    BowlingUsecase bowlingUsecase = new BowlingUsecase();
+        //    Assert.AreEqual(expected, bowlingUsecase.GetScore());
+        //}
     }
 }

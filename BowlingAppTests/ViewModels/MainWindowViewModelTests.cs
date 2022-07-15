@@ -2,6 +2,7 @@
 
 namespace BowlingApp.ViewModels.Tests
 {
+    [Ignore]
     [TestClass()]
     public class MainWindowViewModelTests
     {

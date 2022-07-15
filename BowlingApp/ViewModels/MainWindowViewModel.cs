@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using BowlingApp.Usecase;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 
@@ -33,7 +34,8 @@ namespace BowlingApp.ViewModels
         /// <summary>投げるボタン実行時の処理</summary>
         public void OnStartButtonClick()
         {
-            scoreA_1 = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
+            BowlingUsecase bowlingUsecase = new BowlingUsecase();
+            scoreA_1 = bowlingUsecase.GetScore();
         }
     }
 }
