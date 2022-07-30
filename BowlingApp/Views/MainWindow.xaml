@@ -65,31 +65,31 @@
         <TextBlock Text="score" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" Grid.Column="13" Grid.Row="0" />
 
         <Label Content="{Binding scoreA_1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="1" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="2" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="3" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-4}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="4" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-5}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="5" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-6}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="6" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-7}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="7" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-8}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="8" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-9}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="9" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-10-1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="10" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-10-2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="11" Grid.Row="1"/>
-        <Label Content="{Binding scoreA-10-3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="12" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="2" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="3" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_4}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="4" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_5}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="5" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_6}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="6" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_7}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="7" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_8}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="8" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_9}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="9" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_10_1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="10" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_10_2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="11" Grid.Row="1"/>
+        <Label Content="{Binding scoreA_10_3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="12" Grid.Row="1"/>
         <Label Content="{Binding scoreA}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="13" Grid.Row="1"/>
 
-        <Label Content="{Binding scoreB-1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="1" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="2" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="3" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-4}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="4" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-5}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="5" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-6}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="6" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-7}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="7" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-8}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="8" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-9}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="9" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-10-1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="10" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-10-2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="11" Grid.Row="2"/>
-        <Label Content="{Binding scoreB-10-3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="12" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="1" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="2" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="3" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_4}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="4" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_5}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="5" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_6}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="6" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_7}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="7" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_8}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="8" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_9}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="9" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_10_1}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="10" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_10_2}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="11" Grid.Row="2"/>
+        <Label Content="{Binding scoreB_10_3}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="12" Grid.Row="2"/>
         <Label Content="{Binding scoreB}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" Grid.Column="13" Grid.Row="2"/>
 
         <Button x:Name="StartButton" Content="投げる" Command="{Binding StartButtonClickCommand}" 
