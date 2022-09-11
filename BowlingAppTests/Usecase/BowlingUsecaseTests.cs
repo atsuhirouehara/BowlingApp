@@ -62,7 +62,7 @@ namespace BowlingApp.Usecase.Tests
         //}
 
         [TestMethod]
-        public void BowlingのGetResultがTrueを返したらGetCucResultもTrueを返す()
+        public void BowlingのGetResultが成功したらGetCucResultはその戻り値を返す()
         {
             // 準備
             Mock<IBowling> bowlingMock = new Mock<IBowling>();
@@ -73,6 +73,19 @@ namespace BowlingApp.Usecase.Tests
             // 期待
             Assert.IsTrue(bowlingUsecaseResult.GetCulcResult());
             bowlingMock.Verify(o => o.GetResult(It.IsAny<int>(), It.IsAny<int>()), Times.Once);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void BowlingのGetResultが失敗したらGetCucResultは例外を返す()
+        {
+            // 準備
+            Mock<IBowling> bowlingMock = new Mock<IBowling>();
+            bowlingMock.Setup(o => o.GetResult(It.IsAny<int>(), It.IsAny<int>())).Throws(new Exception());
+            var bowlingUsecaseResult = new BowlingUsecase(bowlingMock.Object);
+
+            // 実行
+            bowlingUsecaseResult.GetCulcResult();
         }
 
         // GetResult=true→GetCucResultもTrueを返すはず

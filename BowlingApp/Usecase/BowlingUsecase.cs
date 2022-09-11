@@ -57,20 +57,6 @@ namespace BowlingApp.Usecase
         public bool GetCulcResult()
         {
             return bowling.GetResult(10, 10);
-            // var flag = bowling.GetResult(10, 10);
-            //try
-            //{
-            //    if (flag == true)
-            //    {
-            //        return flag;
-            //    }
-            //}
-            //catch(Exception e)
-            //{
-            //    throw new Exception(e.Message);
-            //}
-
-            //return flag;
         }
     }
 }
