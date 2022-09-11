@@ -1,11 +1,16 @@
 ﻿using BowlingApp.Models;
+using System;
 
 namespace BowlingApp.Usecase
 {
     public class BowlingUsecase
     {
-        readonly Bowling bowling = new Bowling();
+        private readonly IBowling bowling;
         
+        public BowlingUsecase(IBowling bowling)
+        {
+            this.bowling = bowling;
+        }
         /// <summary>
         /// 2回の合計値を計算するメソッド
         /// </summary>
@@ -47,6 +52,25 @@ namespace BowlingApp.Usecase
                 default:
                     return score;
             }
+        }
+
+        public bool GetCulcResult()
+        {
+            return bowling.GetResult(10, 10);
+            // var flag = bowling.GetResult(10, 10);
+            //try
+            //{
+            //    if (flag == true)
+            //    {
+            //        return flag;
+            //    }
+            //}
+            //catch(Exception e)
+            //{
+            //    throw new Exception(e.Message);
+            //}
+
+            //return flag;
         }
     }
 }

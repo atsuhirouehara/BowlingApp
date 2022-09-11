@@ -2,8 +2,6 @@
 using Prism.Commands;
 using Prism.Mvvm;
 using System;
-using System.Collections.Generic;
-using System.Windows;
 
 namespace BowlingApp.ViewModels
 {
@@ -17,11 +15,11 @@ namespace BowlingApp.ViewModels
             set { SetProperty(ref _title, value); }
         }
 
-        public MainWindowViewModel()
-        {
-            // ボタンが押下された時のメソッドを登録
-            StartButtonClickCommand = new DelegateCommand(OnStartButtonClick);
-        }
+        //public MainWindowViewModel()
+        //{
+        //    // ボタンが押下された時のメソッドを登録
+        //    StartButtonClickCommand = new DelegateCommand(OnThrowButtonClick);
+        //}
 
         public DelegateCommand StartButtonClickCommand { get; }
 
@@ -182,46 +180,54 @@ namespace BowlingApp.ViewModels
         #region メソッド
 
         /// <summary>投げるボタン実行時の処理</summary>
-        public void OnStartButtonClick()
-        {
-            
-            
-            BowlingUsecase bowlingUsecase = new();
+        //public void OnThrowButtonClick()
+        //{
+        //    BowlingUsecase bowlingUsecase = new();
 
-            //MainWindowViewModel obj = new MainWindowViewModel();
-            //var properties = obj.GetType().GetProperties();
-            //var i = 2;
-            //while(properties[i].Equals(String.Empty))
-            //{
-            //    //properties[i] = bowlingUsecase.GetScore();
-            //    i++;
-            //}
+        //    //MainWindowViewModel mainWindowViewModel = new MainWindowViewModel();
+        //    //var properties = GetType().GetProperties();
+        //    //var a = properties[2].GetIndexParameters;
+        //    //var i = 2;
+        //    // var name = properties[i].Name;
+        //    // var properties = mainWindowViewModel.GetType().GetProperty($"{name}").GetValue(mainWindowViewModel);
+
+        //    // PropertyInfo propertyInfo = mainWindowViewModel.GetType().GetProperty($"{name}");
+        //    //PropertyInfo propertyInfo = mainWindowViewModel.GetType().GetProperty("scoreA_1");
+        //    //propertyInfo?.SetValue(mainWindowViewModel, bowlingUsecase.GetScore());
+
+        //    // var a = properties[i].GetProperty(properties[i].Name).GetValue();
             
-            if (scoreA_1 == String.Empty) { scoreA_1 = bowlingUsecase.GetScore(); }
-            else if (scoreB_1 == String.Empty) { scoreB_1 = bowlingUsecase.GetScore(); }
-            else if (scoreA_2 == String.Empty) { scoreA_2 = bowlingUsecase.GetScore(); }
-            else if (scoreB_2 == String.Empty) { scoreB_2 = bowlingUsecase.GetScore(); }
-            else if (scoreA_3 == String.Empty) { scoreA_3 = bowlingUsecase.GetScore(); }
-            else if (scoreB_3 == String.Empty) { scoreB_3 = bowlingUsecase.GetScore(); }
-            else if (scoreA_4 == String.Empty) { scoreA_4 = bowlingUsecase.GetScore(); }
-            else if (scoreB_4 == String.Empty) { scoreB_4 = bowlingUsecase.GetScore(); }
-            else if (scoreA_5 == String.Empty) { scoreA_5 = bowlingUsecase.GetScore(); }
-            else if (scoreB_5 == String.Empty) { scoreB_5 = bowlingUsecase.GetScore(); }
-            else if (scoreA_6 == String.Empty) { scoreA_6 = bowlingUsecase.GetScore(); }
-            else if (scoreB_6 == String.Empty) { scoreB_6 = bowlingUsecase.GetScore(); }
-            else if (scoreA_7 == String.Empty) { scoreA_7 = bowlingUsecase.GetScore(); }
-            else if (scoreB_7 == String.Empty) { scoreB_7 = bowlingUsecase.GetScore(); }
-            else if (scoreA_8 == String.Empty) { scoreA_8 = bowlingUsecase.GetScore(); }
-            else if (scoreB_8 == String.Empty) { scoreB_8 = bowlingUsecase.GetScore(); }
-            else if (scoreA_9 == String.Empty) { scoreA_9 = bowlingUsecase.GetScore(); }
-            else if (scoreB_9 == String.Empty) { scoreB_9 = bowlingUsecase.GetScore(); }
-            else if (scoreA_10_1 == String.Empty) { scoreA_10_1 = bowlingUsecase.GetScore(); }
-            else if (scoreB_10_1 == String.Empty) { scoreB_10_1 = bowlingUsecase.GetScore(); }
-            else if (scoreA_10_2 == String.Empty) { scoreA_10_2 = bowlingUsecase.GetScore(); }
-            else if (scoreB_10_2 == String.Empty) { scoreB_10_2 = bowlingUsecase.GetScore(); }
-            else if (scoreA_10_3 == String.Empty) { scoreA_10_3 = bowlingUsecase.GetScore(); }
-            else if (scoreB_10_3 == String.Empty) { scoreB_10_3 = bowlingUsecase.GetScore(); }
-        }
+        //    //while (a.Equals(PropertyAttributes.None))
+        //    //{
+        //    //    properties[i].SetValue(mainWindowViewModel, bowlingUsecase.GetScore());
+        //    //    i++;
+        //    //}
+
+        //    if (scoreA_1 == String.Empty) { scoreA_1 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_1 == String.Empty) { scoreB_1 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_2 == String.Empty) { scoreA_2 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_2 == String.Empty) { scoreB_2 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_3 == String.Empty) { scoreA_3 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_3 == String.Empty) { scoreB_3 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_4 == String.Empty) { scoreA_4 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_4 == String.Empty) { scoreB_4 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_5 == String.Empty) { scoreA_5 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_5 == String.Empty) { scoreB_5 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_6 == String.Empty) { scoreA_6 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_6 == String.Empty) { scoreB_6 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_7 == String.Empty) { scoreA_7 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_7 == String.Empty) { scoreB_7 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_8 == String.Empty) { scoreA_8 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_8 == String.Empty) { scoreB_8 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_9 == String.Empty) { scoreA_9 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_9 == String.Empty) { scoreB_9 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_10_1 == String.Empty) { scoreA_10_1 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_10_1 == String.Empty) { scoreB_10_1 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_10_2 == String.Empty) { scoreA_10_2 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_10_2 == String.Empty) { scoreB_10_2 = bowlingUsecase.GetScore(); }
+        //    else if (scoreA_10_3 == String.Empty) { scoreA_10_3 = bowlingUsecase.GetScore(); }
+        //    else if (scoreB_10_3 == String.Empty) { scoreB_10_3 = bowlingUsecase.GetScore(); }
+        //}
         
         #endregion
     }
