@@ -38,7 +38,7 @@ namespace BowlingApp.Usecase.Tests
             Mock<Bowling> bowlingMock = new Mock<Bowling>();
             bowlingMock.Setup(o => o.GetResult(1, 1)).Verifiable();
             BowlingUsecase bowlingUsecase = new(bowlingMock.Object);
-            Assert.AreEqual("✖", bowlingUsecase.GetScore());
+            Assert.AreEqual("✖", bowlingUsecase.GetThrowResult());
         }
 
         //[TestMethod()]

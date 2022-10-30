@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.Windows;
+﻿using System.Windows;
 
 namespace BowlingApp.Views
 {
@@ -9,7 +7,7 @@ namespace BowlingApp.Views
     {
         public MainWindow()
         {
-            InitializeComponent();
+            this.InitializeComponent();
 
             // batファイルを実行
             // Process.Start($"{Environment.CurrentDirectory}\\practice.bat");
